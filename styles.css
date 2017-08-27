@@ -1,0 +1,413 @@
+
+dy
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
+}
+
+html 
+{
+  position: relative;
+  min-height: 100%;
+}
+
+header .row,
+footer .row 
+{
+	display: flex;
+	align-items: center;
+}
+
+#header 
+{
+   padding:10px;
+   position: absolute;
+   font-size: 1.5rem;
+}
+
+.navbar-default
+{
+	background-color: rgba(1, 171, 190, 0.7);
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar 
+{
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar 
+{
+  background-color: rgba(1, 171, 190, 0.7);
+}
+
+.navbar-default .navbar-toggle:hover 
+{
+  background-color: white;
+}
+
+.navbar-default .navbar-header .navbar-brand 
+{
+  color: white;
+} 
+
+.navbar-default .navbar-header .navbar-brand:hover
+{
+  color: rgb(1, 171, 190);
+  background-color: white;
+}
+
+.nav.navbar-nav li a 
+{
+  color: white;
+}
+
+.nav.navbar-nav.navbar-right li a:hover
+{
+  color: rgb(1, 171, 190);
+  background-color: white;
+}
+
+.navbar-default .navbar-nav .active
+{
+  color: rgb(1, 171, 190);
+  background: white;
+}
+
+.navbar-default .navbar-nav .active:hover
+{
+  color: rgb(1, 171, 190);
+  background: white;
+}
+
+#header-name
+{
+	font-weight: 500;
+}
+
+body
+{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: url(http://i.imgur.com/wa8PwLA.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  min-height:100%;
+}
+
+.text-box {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #e9e9e9;
+  background: white;
+  padding: 8px 16px;
+  margin: 8px 0
+}
+
+footer a
+{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+#profile-picture
+{
+	height: 200px;
+	border: 2px solid #d9d9d9;
+	padding: 4px;
+	background: white;
+}
+
+.heading-name
+{
+  font-weight: 550;
+}
+
+.university
+{
+  font-size: 18px;
+}
+
+#homepage-majors
+{
+  margin: 0px auto;
+  font-size: 18px
+}
+
+#aboutme-photo
+{
+  height: 200px;
+  width: 200px;
+  float: left;
+  clear: right;
+  overflow: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+  padding: 4px;
+  background: rgba(1, 171, 190, 0.7);
+}
+
+#aboutme-content
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+#aboutme-content h3
+{
+  font-size: 3rem;
+  color: rgb(1, 171, 190);
+}
+
+#aboutme-content a 
+{
+  color: rgb(1, 171, 190);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+  #aboutme-text
+  {
+    padding-left: 219px;
+  }
+  #creativeAI-photo
+  {
+    height: 200px;
+    width: 300px;
+    float: top;
+    overflow: auto;
+  }
+  #personalWebsite-photo
+  {
+    height: 170px;
+    width: 300px;
+    float: top;
+    overflow: auto;
+  }
+}
+
+.resume-item
+{
+  border: 2px solid rgb(1, 171, 190);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+#resume-content h1
+{
+  color: rgb(1, 171, 190);
+  padding: 20px;
+}
+
+#resume-content h3
+{
+  color: rgb(1, 171, 190);
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+#resume-list
+{
+  margin: 0;
+  padding: 0;
+}
+
+#creativeAI-photo
+{
+  height: 200px;
+  width: 300px;
+  float: right;
+  clear: left;
+  border-radius: 5px;
+  border: 2px solid rgb(1, 171, 190);
+}
+
+#personalWebsite-photo
+{
+  height: 170px;
+  width: 300px;
+  float: right;
+  clear: left;
+  border-radius: 5px;
+  border: 2px solid rgb(1, 171, 190);
+}
+
+#MBARC-photo
+{
+  height: 200px;
+  width: 300px;
+  float: right;
+  clear: left;
+  border-radius: 5px;
+  border: 2px solid rgb(1, 171, 190);
+}
+
+.position
+{
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 0;
+}
+
+.location
+{
+  margin-bottom: 0;
+}
+
+.dates
+{
+  margin-bottom: 10px;
+}
+
+#resume a
+{
+  color: rgb(1, 171, 190);
+
+}
+
+#resume a
+{
+  text-decoration: none
+}
+
+#resume-project-links
+{
+  color: rgb(1, 171, 190);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#resume-project-links:hover
+{
+  text-decoration: none
+}
+
+.text-box
+{
+  margin-bottom: 20px;
+}
+
+#home-content 
+{
+	color: white;
+	height: 100%;
+	padding-top: 64px;
+	padding-bottom: 50px;
+  font-weight: bold;
+}
+
+#contact-content
+{
+  margin: 20px;
+}
+
+#contact-picture
+{
+  height: 200px;
+}
+
+.contact-link
+{
+  color: rgb(1, 171, 190);
+  font-size: 16px;
+  text-decoration: none;
+  overflow: auto;
+}
+
+.contact-link:hover
+{
+  color: rgb(1, 171, 190);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#contact-me
+{
+  color: rgb(1, 171, 190);;
+}
+
+#contact-content-left
+{
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+#contact-content-right
+{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#contact-table-2 td
+{
+  padding: 20px;
+}
+
+strong
+{
+  font-size: 1.6rem;
+  color: rgb(1, 171, 190);
+}
+
+footer 
+{
+   text-align: center;
+   color: white;
+   font-size: 12px;
+   display: inline;
+   min-width: 100%;
+}
+
+#container 
+{
+   min-height:100%;
+   position:relative;
+}
+
+#body 
+{
+   padding:10px;
+   padding-bottom:48px;
+   padding-top: 64px;
+}
+
+#footer 
+{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:48px;
+   background-color: rgba(1, 171, 190, 0.7);
+}
+
+#footer-content
+{
+	padding-top: 16px;
+}
+
+
+
+
